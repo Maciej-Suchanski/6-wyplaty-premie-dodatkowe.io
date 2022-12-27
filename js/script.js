@@ -14,7 +14,7 @@ function oblicz() {
             document.getElementById("pracownik" + [i]).
                 getElementsByClassName("wyplata")[0].innerHTML = (czas.value * stawka.value);
         }
-        if (czas.value < 160) {
+        if (czas.value < 100) {
             document.getElementById("pracownik" + [i]).getElementsByClassName("pracownik")[0].style.backgroundColor = "red";
         }
         let obj = {
